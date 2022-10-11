@@ -7,7 +7,7 @@ function onOpen() {
 
 function format(x, n){
     x = parseFloat(x);
-    n = n || 2;
+    n = n || 2 ;
     return parseFloat(x.toFixed(n))
 }
 
